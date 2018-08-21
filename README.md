@@ -23,10 +23,12 @@ npm start
    ii) Building small and reusable components.
    iii) Reducing the risk of specificity clash.
 
-3. Getting rid of the mapping between styles and components? Most of the time, a dumb component always has its own small style.css file related. So, you need to create two files every time you want to create the dumb component. This seems to be fine at the beginning, however, when your project is getting bigger, you will end-up with a whole bunch of files. Styled-Components allows you to write CSS directly inside your component, which perfectly solved this problem.
-Building small and reusable components? Small components can easily be reused and tested. By using Styled-Components, you can easily build a small component and extend its capability with props.
+  i). Getting rid of the mapping between styles and components? Most of the time, a dumb component always has its own small style.css file related. So, you need to create two files every time you want to create the dumb component. This seems to be fine at the beginning, however, when your project is getting bigger, you will end-up with a whole bunch of files. Styled-Components allows you to write CSS directly inside your component, which perfectly solved this problem.
 
-4. Reducing the risk of specificity clash? Everyone might have encounter the specificity clash problem before. For example, you just wanted to add a margin to a specific paragraph, but it unintentionally impacts the other paragraphs. You can easily solve this problem by applying a CSS class only once. Styled-Components is actually doing this for us. It automatically generates a unique class name and pass it to our component.
+
+  ii). Building small and reusable components? Small components can easily be reused and tested. By using Styled-Components, you can easily build a small component and extend its capability with props.
+
+  iii). Reducing the risk of specificity clash? Everyone might have encounter the specificity clash problem before. For example, you just wanted to add a margin to a specific paragraph, but it unintentionally impacts the other paragraphs. You can easily solve this problem by applying a CSS class only once. Styled-Components is actually doing this for us. It automatically generates a unique class name and pass it to our component.
 
 ## React Styled Components Example
   The styled-components utilizes tagged template literals to style your components. Okay, first we install the React js, and then we explore the React styled-components. Here we created three sample for which use same components with conditional props.
@@ -106,7 +108,7 @@ export default Header;
 ```
 
 ## It makes it easy to conditionally style components
-6. The idea is that you can style components based on their props, e.g.
+The idea is that you can style components based on their props, e.g.
   ## ./src/util/Form.js
 <!-- prettier-ignore -->
 ```JSX
