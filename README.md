@@ -1,9 +1,9 @@
-Clone the ReactJS-Styled-Form-Components project by doing:
+Clone the styled-components-Forms project by doing:
 
-git clone https://github.com/DeivaTeam/ReactJS-Styled-Form-Components.git
+git clone https://github.com/DeivaTeam/Styled_Components_Form.git
 
 ```
-cd ReactJS-Styled-Form-Components
+cd Styled_Components_Form
 
 ```
 
@@ -26,8 +26,22 @@ Building small and reusable components? Small components can easily be reused an
 
 4. Reducing the risk of specificity clash? Everyone might have encounter the specificity clash problem before. For example, you just wanted to add a margin to a specific paragraph, but it unintentionally impacts the other paragraphs. You can easily solve this problem by applying a CSS class only once. Styled-Components is actually doing this for us. It automatically generates a unique class name and pass it to our component.
 
-5. Styled-components enable writing of CSS in JavaScript using tagged template literals. It removes the mapping between components and styles — component is made into a low-level styling construct, e.g.
+## Screens
 
+1) Signup
+
+![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/Signup.JPG)
+
+2) Login
+
+![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/Login.JPG)
+
+3) ForgetPassword
+
+![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/ForgetPassword.JPG)
+
+## Code Structure
+5. Styled-components enable writing of CSS in JavaScript using tagged template literals. It removes the mapping between components and styles — component is made into a low-level styling construct, e.g.
  ## ./src/util/Form.js
 <!-- prettier-ignore -->
 ```JSX
