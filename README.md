@@ -1,11 +1,20 @@
-please clone the styled-components-Forms project by doing:
+Clone the styled-components-Forms project by doing:
 
 git clone https://github.com/DeivaTeam/Styled_Components_Form.git
+
+```
 cd Styled_Components_Form
 
-Install all dependencies & Start developing
+```
+
+ ## Install all dependencies & Start developing
+ 
+```
 npm install
+
 npm start
+```
+
 
 
 Forms using Styled-Components
