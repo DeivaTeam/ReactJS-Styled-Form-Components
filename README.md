@@ -1,9 +1,9 @@
-Clone the styled-components-Forms project by doing:
+Clone the ReactJS-Styled-Form-Components project by doing:
 
-git clone https://github.com/DeivaTeam/Styled_Components_Form.git
+git clone https://github.com/DeivaTeam/ReactJS-Styled-Form-Components.git
 
 ```
-cd Styled_Components_Form
+cd ReactJS-Styled-Form-Components
 
 ```
 
