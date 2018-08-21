@@ -151,7 +151,7 @@ export default Header;
  
  This makes a lot of sense in React world. After all, component behaviour is controlled using the props. Does it make sense to directly attach prop values to styles? Maybe. But lets look into the component implementation:
  
- Creating a style sheet conditionally using the power of JavaScript gives you a lot of power. However, that also means that the style is a lot harder to interpret. Compare it with CSS:
+ Creating a style sheet conditionally using the power of JavaScript gives you a lot of power. However, that also means that the style is a lot harder to interpret. 
  
 
 
