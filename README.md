@@ -26,6 +26,8 @@ Building small and reusable components? Small components can easily be reused an
 
 4. Reducing the risk of specificity clash? Everyone might have encounter the specificity clash problem before. For example, you just wanted to add a margin to a specific paragraph, but it unintentionally impacts the other paragraphs. You can easily solve this problem by applying a CSS class only once. Styled-Components is actually doing this for us. It automatically generates a unique class name and pass it to our component.
 
+5. Styled-components enable writing of CSS in JavaScript using tagged template literals. It removes the mapping between components and styles — component is made into a low-level styling construct, e.g.
+
  ## ./src/util/Form.js
 <!-- prettier-ignore -->
 ```JSX
