@@ -39,7 +39,7 @@ Building small and reusable components? Small components can easily be reused an
 
 2) Login & ForgetPassword
 
-![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/OtherForms.JPG)
+![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/OtherForms.png)
 
 
  ## ./src/util/Form.js (Reusable component file)
