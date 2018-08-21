@@ -46,7 +46,7 @@ Building small and reusable components? Small components can easily be reused an
 ![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/ForgetPassword.JPG)
 
 
- ## ./src/util/Form.js
+ ## ./src/util/Form.js (Reusable component file)
 <!-- prettier-ignore -->
 ```JSX
 import styled, { css } from 'styled-components';
@@ -80,7 +80,7 @@ export const Divider = styled.hr`
   `}
 `
 ```
-## ./src/components/Header/index.jsx
+## ./src/components/Header/index.jsx 
 
 <!-- prettier-ignore -->
 ```JSX
