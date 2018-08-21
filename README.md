@@ -28,6 +28,9 @@ Building small and reusable components? Small components can easily be reused an
 
 4. Reducing the risk of specificity clash? Everyone might have encounter the specificity clash problem before. For example, you just wanted to add a margin to a specific paragraph, but it unintentionally impacts the other paragraphs. You can easily solve this problem by applying a CSS class only once. Styled-Components is actually doing this for us. It automatically generates a unique class name and pass it to our component.
 
+## React Styled Components Example
+  The styled-components utilizes tagged template literals to style your components. Okay, first we install the React js, and then we explore the React styled-components. Here we created three sample for which use same components with conditional props.
+  
 ## Screens
 
 1) Signup
@@ -42,8 +45,7 @@ Building small and reusable components? Small components can easily be reused an
 
 ![alt text](https://github.com/DeivaTeam/ReactJS-Styled-Form-Components/blob/master/Screens/ForgetPassword.JPG)
 
-## React Styled Components Example
-  The styled-components utilizes tagged template literals to style your components. Okay, first we install the React js, and then we explore the React styled-components.
+
  ## ./src/util/Form.js
 <!-- prettier-ignore -->
 ```JSX
